@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3>Minhas cervejas</h3>
+
+  <ion-list>
+    <button ion-item *ngFor="let b of beers" (click)="getBeerInfo(b.id)">
+      {{ b.name }}
+    </button>
+  </ion-list>
+</ion-content>
