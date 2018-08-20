@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ExemploVimeo</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="deeplink_redirect_scheme">testlib</string>
+    <string name="deeplink_redirect_host">vimeonetworktestlib.com</string>
+
+    <string name="access_token">69441321d1b3364165d5feeeb22d3790</string>
+    <string name="client_id">65bafd8648267b89dfb66b0aab760aeff5056cfd</string>
+    <string name="client_secret">YV0EGH6sgeEAmZEvChTD0z1QLyNEvepm6CAc8NNcJLCRc5cR38TnNi5xaXk4gZcxivEzBZGRDcZRd15TbaMg+7gWMtF+oT+NkitqecmeLMhI2SRZu5DMmXLmF+AbOfz/</string>
+</resources>
