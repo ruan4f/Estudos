@@ -6,7 +6,8 @@
 <meta charset="ISO-8859-1">
 <title>Hello World</title>
 </head>
-<body>
+<body style="text-align: center;">
 	<h1>My first Hello World with JSP</h1>
+	<h6>This is a example</h6>
 </body>
 </html>
