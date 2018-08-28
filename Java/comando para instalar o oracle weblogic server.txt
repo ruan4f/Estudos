@@ -1,0 +1,17 @@
+i faced the same problem even when JAVA_HOME points to JDK this is how i resolved it ,
+
+run command prompt as administrator
+
+go to the directory which contains your jar file
+
+C:\Windows\system32>cd/
+
+C:\>cd oracleweblogic
+Set JAVA_HOME and path again on the command prompt
+
+C:\oracleweblogic>set JAVA_HOME=C:\Program Files\Java\jdk1.8.0_45
+
+C:\oracleweblogic>set path=C:\Program Files\Java\jdk1.8.0_45\bin;%path%
+run the jar file
+
+C:\oracleweblogic>java -jar fmw_12.2.1.1.0_wls_quick.jar
